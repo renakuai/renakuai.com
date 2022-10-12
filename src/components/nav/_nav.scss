@@ -1,0 +1,30 @@
+@import '../../styles/_themes.scss';
+
+nav.Top {
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+  }
+}
+
+nav.Top a {
+  color: var(--color-font-primary);
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+
+  &:visited {
+    color: var(--color-font-primary);
+    text-decoration: none;
+  }
+}
