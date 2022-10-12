@@ -1,0 +1,14 @@
+@import '../../styles/_themes.scss';
+
+
+.Links {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  margin-top: 1.25rem;
+}
+
+section.Intro {
+  margin-bottom: 8rem;
+}

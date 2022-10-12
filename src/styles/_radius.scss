@@ -1,0 +1,7 @@
+@import "./tokens.scss";
+
+:root {
+  --border-radius-small: #{$border-radius-small};
+  --border-radius-medium: #{$border-radius-medium};
+  --border-radius-large: #{$border-radius-large};
+}

@@ -1,0 +1,27 @@
+@import "./tokens.scss";
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@400;600;700&display=swap');
+
+:root {
+  /* FONT FAMILY */
+  --font-family: 'Figtree', sans-serif;
+
+  --font-weight-bold: #{$font-weight-bold};
+  --font-weight-semibold: #{$font-weight-semibold};
+  --font-weight-regular: #{$font-weight-regular};
+
+  --font-line-height-header: #{$font-line-height-small};
+  --font-line-height-body-small: #{$font-line-height-medium};
+  --font-line-height-body: #{$font-line-height-large};
+
+  --font-h1-size: #{$font-size-5x-large};
+  --font-h2-size: #{$font-size-4x-large};
+  --font-h3-size: #{$font-size-3x-large};
+  --font-h4-size: #{$font-size-2x-large};
+  --font-h5-size: #{$font-size-large};
+  --font-h6-size: #{$font-size-medium};
+
+  --font-body-large-size: #{$font-size-large};
+  --font-body-regular-size: #{$font-size-medium};
+  --font-body-small-size: #{$font-size-small};
+  --font-label-size: #{$font-size-2x-small};
+}

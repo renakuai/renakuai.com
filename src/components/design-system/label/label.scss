@@ -1,0 +1,11 @@
+@import '../../../styles/styles.scss';
+
+.Label {
+  margin-top: .75rem;
+  padding: 0.15rem 0.75rem;
+  background-color: var(--color-background-label);
+  color: var(--color-font-label);
+  font-size: var(--font-label-size);
+  font-weight: var(--font-weight-semibold);
+  border-radius: var(--border-radius-large);
+}

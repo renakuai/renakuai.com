@@ -1,0 +1,58 @@
+@import './_fonts.scss';
+@import './_themes.scss';
+
+body {
+  font-family: var(--font-family);
+  font-size: var(--font-body-regular-size);
+  line-height: var(--font-line-height-body-small);
+  font-weight: var(--font-weight-regular);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+p {
+  margin-top: 0.5rem;
+  margin-bottom: 0;
+}
+
+p.Large {
+  font-size: var(--font-body-large-size);
+  line-height: var(--font-line-height-body);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: var(--font-line-height-header);
+  font-weight: var(--font-weight-bold);
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: var(--font-h1-size);
+}
+
+h2 {
+  font-size: var(--font-h2-size);
+}
+
+h3 {
+  font-size: var(--font-h3-size);
+}
+
+h4 {
+  font-size: var(--font-h4-size);
+}
+
+h5 {
+  font-size: var(--font-h5-size);
+}
+
+h6 {
+  font-size: var(--font-h6-size);
+}

@@ -1,0 +1,14 @@
+@import '../../styles/_themes.scss';
+
+
+.Grid {
+  display: grid;
+  grid-template-columns: minmax(32px, 1fr) minmax(280px, 1000px) minmax(32px, 1fr);
+  margin: 0;
+  padding: 0;
+  background-color: var(--color-background-page);
+}
+
+.App {
+  grid-column: 2/3;
+}

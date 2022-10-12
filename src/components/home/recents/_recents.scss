@@ -1,0 +1,36 @@
+@import '../../../styles/_themes.scss';
+
+.Recents {
+  margin-top: 4rem;
+}
+
+.RowLayout {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  flex-wrap: no-wrap;
+
+  .Left {
+    margin-top: 0.5rem;
+    flex-basis: 35%;
+    flex-shrink: 0;
+  }
+
+  .Right {
+    flex-shrink: 1;
+  }
+}
+
+.Divider {
+  border: 1px dashed var(--color-border-secondary);
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+@media only screen and (max-width: 769px) {
+  .RowLayout {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+}
