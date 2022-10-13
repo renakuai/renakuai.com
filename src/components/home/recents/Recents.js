@@ -19,12 +19,13 @@ function Recents(props) {
           <h3>{title}</h3></div>
         <div className="Right">
           {children}
-          <div className="Link"><LinkComp
-            type="default"
-            iconName="arrow"
-            iconPosition="right"
-            link={route}
-          >{linkName}</LinkComp>
+          <div className="Link">
+            <Link to={route}><LinkComp
+              type="default"
+              iconName="arrow"
+              iconPosition="right"
+            >{linkName}</LinkComp>
+            </Link>
           </div>
         </div>
       </div>

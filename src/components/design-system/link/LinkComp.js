@@ -9,7 +9,8 @@ function LinkComp(props) {
     type,
     iconName,
     iconPosition,
-    link
+    link,
+    route
   } = props
 
   return (
