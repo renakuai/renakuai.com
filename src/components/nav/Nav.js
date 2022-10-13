@@ -10,12 +10,12 @@ function Nav(props) {
   const changeTheme = () => {
     setRotate(true);
     setTimeout(() => {
-      if (localStorage.getItem('theme') === 'light') {
+      if ((localStorage.getItem('theme') === 'light') || !localStorage.getItem('theme')) {
         setTheme('dark');
         localStorage.setItem('theme', 'dark');
         setRotate(false);
       }
-      else if (localStorage.getItem('theme') === 'dark') {
+      else {
         setTheme('light');
         localStorage.setItem('theme', 'light');
         setRotate(false);
@@ -35,7 +35,7 @@ function Nav(props) {
           <li><Link to="/writing">Writing</Link></li>
           <li>
             <div className='ThemeToggle' onClick={changeTheme}>
-              {localStorage.getItem('theme') === 'light' ? <img className={rotate ? 'ThemeToggle Rotate' : 'ThemeToggle'} src="/icons/sun.svg" /> : <img className={rotate ? 'ThemeToggle Rotate' : 'ThemeToggle'} src="/icons/moon.svg" />}
+              {theme !== 'light' ? <img className={rotate ? 'ThemeToggle Rotate' : 'ThemeToggle'} src="/icons/moon.svg" /> : <img className={rotate ? 'ThemeToggle Rotate' : 'ThemeToggle'} src="/icons/sun.svg" />}
             </div>
           </li>
         </ul>

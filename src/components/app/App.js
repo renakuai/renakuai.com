@@ -8,20 +8,23 @@ function App() {
   const [theme, setTheme] = useState('light');
 
   useEffect(() => {
-    if ((localStorage.getItem('theme') === 'light') || !localStorage.getItem('theme')) {
+    if (localStorage.getItem('theme') === 'light') {
       setTheme('light')
     }
-    else {
+    else if (localStorage.getItem('theme') === 'dark') {
       setTheme('dark')
+    }
+    else {
+      setTheme('light')
     }
   }, [])
 
   const themeClass = () => {
-    if (theme === 'light') {
-      return 'Grid Light';
+    if (theme === 'dark') {
+      return 'Grid Dark';
     }
     else {
-      return 'Grid Dark';
+      return 'Grid Light';
     }
   }
 
