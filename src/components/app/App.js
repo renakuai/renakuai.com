@@ -8,7 +8,7 @@ function App() {
   const [theme, setTheme] = useState('light');
 
   useEffect(() => {
-    if (localStorage.getItem('theme') === 'light') {
+    if ((localStorage.getItem('theme') === 'light') || !localStorage.getItem('theme')) {
       setTheme('light')
     }
     else {
