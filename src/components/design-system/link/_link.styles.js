@@ -12,8 +12,7 @@ export const Link = styled.a`
   align-items: center;
   border: none;
   ${props => props.type === 'default' &&
-    `text-decoration: underline;
-    `
+    `text-decoration: underline;`
   }
   ${props => props.type !== 'default' &&
     `height: 2.5rem;
@@ -48,22 +47,6 @@ export const Link = styled.a`
         return `none`;
     }
   }};
- &:hover {
-  transform: ${props => props.type !== 'default' && `translateY(-4px)`};
-  background-color: ${props => {
-    switch (props.type) {
-      case ('primary'):
-        return `var(--color-background-action-primary-hover)`;
-      case ('secondary'):
-        return `var(--color-background-action-secondary-hover)`;
-      case ('tertiary'):
-        return `var(--color-background-action-secondary-hover)`;
-      case ('default'):
-        return `none`
-    }
-  }};
-  color: ${props => props.type === 'default' && `var(--color-font-link-hover)`
-  }};
   &:visited {
     color: ${props => {
     switch (props.type) {
@@ -78,5 +61,21 @@ export const Link = styled.a`
     }
   }};
   }
+  &:hover {
+    transform: ${props => props.type !== 'default' && `translateY(-4px)`};
+    background-color: ${props => {
+    switch (props.type) {
+      case ('primary'):
+        return `var(--color-background-action-primary-hover)`;
+      case ('secondary'):
+        return `var(--color-background-action-secondary-hover)`;
+      case ('tertiary'):
+        return `var(--color-background-action-secondary-hover)`;
+      case ('default'):
+        return `none`
+    }
+  }};
+    color: ${props => props.type === 'default' && `var(--color-font-link-hover)`}
+  };
  }
 `

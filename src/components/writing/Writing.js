@@ -1,25 +1,25 @@
 import React from 'react';
-import './_home.scss';
+import './_writing.scss';
 import Page from '../design-system/page/Page';
-import LinkComp from '../design-system/link/LinkComp';
-import RecentProjects from './recents/RecentProjects';
-import RecentWriting from './recents/RecentWriting'
+import Card from '../design-system/card/Card.js';
 
 
-function Home() {
+function Writing() {
   return (
     <Page>
       <h1>Writing</h1>
-      <Card
-        title="Working at early stage, growth, and large companies"
-        date="Oct 2022"
+      <section className="Cards">
+        <Card
+          title="A Primer on Design Tokens"
+          date="Oct 2022"
+          link="https://medium.com/@renakuai"
+        >
+          Placeholder for something coming soon.
+        </Card>
 
-      >
-        Coming soon!
-      </Card>
-
+      </section>
     </Page>
   );
 }
 
-export default Home;
+export default Writing;

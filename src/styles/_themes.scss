@@ -43,8 +43,45 @@
 }
 
 :root .Dark {
+  /* background */
   --color-background-page: #{$color-grey-90};
 
-  --text-color: #F7F8F8;
-  --link-color: #828fff;
+  --color-background-primary: #{$color-grey-90};
+  --color-background-secondary: #{$color-grey-80};
+  --color-background-tertiary: #{$color-grey-80};
+
+  --color-background-action-primary: #{$color-purple-30};
+  --color-background-action-primary-hover: #{$color-purple-20};
+  --color-background-action-secondary: #{$color-grey-90};
+  --color-background-action-secondary-hover: #{$color-purple-90};
+  --color-background-disabled: #{$color-grey-10};
+  --color-background-label: #{$color-teal-90};
+
+  /* font */
+  --color-font-primary: #{$color-grey-10};
+  --color-font-secondary: #{$color-grey-50};
+  --color-font-tertiary: #{$color-purple-30};
+  --color-font-inverse: #{$color-purple-80};
+  --color-font-link: #{$color-purple-30};
+  --color-font-link-hover: #{$color-purple-20};
+  --color-font-label: #{$color-teal-30};
+
+  /* border */
+  --color-border-primary: #{$color-grey-80};
+  --color-border-secondary: #{$color-grey-60};
+  --color-border-tertiary: #{$color-purple-50};
+  --color-border-inverse: #{$color-purple-70};
+
+  --color-border-action-primary: #{$color-purple-30};
+  --color-border-action-primary-hover: #{$color-purple-20};
+  --color-border-action-primary-focus: #{$color-purple-70};
+  --color-border-action-secondary: #{$color-purple-50};
+  --color-border-action-secondary-hover: #{$color-purple-40};
+  --color-border-action-secondary-focus: #{$color-purple-50};
+
+  /* icon */
+  --color-icon-primary: #{$color-grey-40};
+  --color-icon-secondary: #{$color-purple-50};
+  --color-icon-tertiary: #{$color-purple-80};
+  --color-icon-disabled: #{$color-grey-50};
 }

@@ -18,6 +18,11 @@
 
   .Right {
     flex-shrink: 1;
+    width: 100%;
+
+    .Link {
+      text-align: right;
+    }
   }
 }
 

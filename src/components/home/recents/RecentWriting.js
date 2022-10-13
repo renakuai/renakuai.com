@@ -5,13 +5,18 @@ import Card from '../../design-system/card/Card.js';
 function RecentProjects() {
   return (
     <Recents
-      title="Recent Writing">
+      title="Recent Writing"
+      route="/writing"
+      link="https://www.figma.com/community/file/1158568599671392782"
+      linkName="View more writing"
+    >
       <Card
-        title="Working at early stage, growth, and large companies"
+        title="A Primer on Design Tokens"
         date="Oct 2022"
 
       >
-        Coming soon!
+        Placeholder for something coming soon.
+
       </Card>
     </Recents>
   );

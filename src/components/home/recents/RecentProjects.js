@@ -5,10 +5,12 @@ import Card from '../../design-system/card/Card.js';
 function RecentProjects() {
   return (
     <Recents
-      title="Recent Projects">
+      title="Recent Projects"
+      route="/projects"
+      linkName="View more projects">
       <Card
-        imgSrc='/uploads/table_component.png'
-        imgAlt="Table Components"
+        imgsrc='/uploads/table_component.png'
+        imgalt="Table Components"
         subtitle="Side Project: Figma"
         title="Customizable Table Component in Figma"
         link="https://www.figma.com/community/file/1158568599671392782"
@@ -18,8 +20,8 @@ function RecentProjects() {
       </Card>
 
       <Card
-        imgSrc='/uploads/connect_four.gif'
-        imgAlt="Connect 4 Game"
+        imgsrc='/uploads/connect_four.gif'
+        imgalt="Connect 4 Game"
         subtitle="Side Project: Code"
         title="Connect 4 Game"
         link="https://connect-4.stackblitz.io/"
@@ -29,8 +31,8 @@ function RecentProjects() {
       </Card>
 
       <Card
-        imgSrc='/uploads/weather_app.gif'
-        imgAlt="Weather App"
+        imgsrc='/uploads/weather_app.gif'
+        imgalt="Weather App"
         subtitle="Side Project: Code"
         title="Weather App with CSS Animations"
         link="https://renas-weather.netlify.app/"

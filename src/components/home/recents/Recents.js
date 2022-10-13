@@ -1,10 +1,15 @@
 import React from 'react';
+import LinkComp from '../../design-system/link/LinkComp';
 import './_recents.scss';
+import { Link } from "react-router-dom";
+
 
 function Recents(props) {
   const {
     children,
-    title
+    title,
+    linkName,
+    route
   } = props;
   return (
     <section className="Recents">
@@ -14,6 +19,13 @@ function Recents(props) {
           <h3>{title}</h3></div>
         <div className="Right">
           {children}
+          <div className="Link"><LinkComp
+            type="default"
+            iconName="arrow"
+            iconPosition="right"
+            link={route}
+          >{linkName}</LinkComp>
+          </div>
         </div>
       </div>
     </section>

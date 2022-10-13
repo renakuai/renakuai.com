@@ -11,8 +11,8 @@ export const Path = styled.path`
         return `var(--color-icon-secondary)`;
       case ('tertiary'):
         return `var(--color-icon-secondary)`;
-      default:
-        break;
+      case ('default'):
+        return `var(--color-icon-secondary)`;
     }
   }
   }

@@ -6,6 +6,9 @@ nav.Top {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  color: var(--color-font-primary);
+  font-weight: var(--font-weight-semibold);
+
 
   ul {
     list-style: none;
@@ -27,4 +30,25 @@ nav.Top a {
     color: var(--color-font-primary);
     text-decoration: none;
   }
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(320deg)
+  }
+}
+
+.ThemeToggle {
+  cursor: pointer;
+}
+
+.Rotate {
+  transform-origin: center;
+  animation-name: spin;
+  animation-duration: 400ms;
+  animation-fill-mode: forwards;
 }

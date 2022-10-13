@@ -6,8 +6,8 @@ function Card(props) {
 
   const {
     children,
-    imgSrc,
-    imgAlt,
+    imgsrc,
+    imgalt,
     label,
     date,
     subtitle,
@@ -18,8 +18,8 @@ function Card(props) {
   return (
     <a className="Card" href={link} target="_blank">
       <article
-        imgSrc={imgSrc}
-        imgAlt={imgAlt}
+        imgsrc={imgsrc}
+        imgalt={imgalt}
         subtitle={subtitle}
         label={[label]}
         date={date}
@@ -27,7 +27,7 @@ function Card(props) {
         className="Card"
         link={link}
       >
-        {imgSrc && <img src={imgSrc} alt={imgAlt} className="Card" />}
+        {imgsrc && <img src={imgsrc} alt={imgalt} className="Card" />}
         {subtitle && <p className="Subtitle">{subtitle}</p>}
         <h4>{title}</h4>
         <p className="Content">{children}</p>
