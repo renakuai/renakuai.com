@@ -43,7 +43,7 @@ export const projects = [
     imgsrc: '/uploads/weather_app.gif',
     imgalt: "Weather App",
     subtitle: "Side Project: Code",
-    link: "https://renas-weather.netlify.app/",
+    link: "renas-weather.netlify.app/",
     label: ['React', 'API', 'Code', 'Animations', 'Side Project'],
     description: 'Created a weather app to practice ReactJS themes / styled components and CSS animations.'
   },
@@ -53,7 +53,7 @@ export const projects = [
     imgsrc: '/uploads/button.png',
     imgalt: "Buttons",
     subtitle: "Side Project: Figma",
-    link: "https://www.figma.com/community/file/1159691052637201894",
+    link: "figma.com/community/file/1159691052637201894",
     label: ['Figma', 'Design', 'Side Project', "Design Systems"],
     description: 'A figma file containing a collection of button, icon button, and button group variants.'
   },
@@ -63,7 +63,7 @@ export const projects = [
     imgsrc: '/uploads/connect_four.gif',
     imgalt: "Connect 4 Game",
     subtitle: "Side Project: Code",
-    link: "https://connect-4.stackblitz.io/",
+    link: "connect-4.stackblitz.io/",
     label: ['React', 'API', 'Code', 'Side Project'],
     description: 'Created a Connect 4 game using React.'
   },
@@ -74,7 +74,7 @@ export const projects = [
     imgalt: "Table Components",
     subtitle: "Side Project: Figma",
     title: "Customizable Table Component in Figma",
-    link: "https://www.figma.com/community/file/1158568599671392782",
+    link: "figma.com/community/file/1158568599671392782",
     label: ['Figma', 'Design', 'Side Project', "Design Systems"],
     description: 'A basic, but highly customizable table component. Includes cell variants, column header variants, full rows, etc. It is recommended to build tables using individual cells for the most customization.'
   },
