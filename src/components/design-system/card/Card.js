@@ -1,6 +1,8 @@
 import React from 'react';
 import './_card.scss';
 import Label from '../label/Label.js';
+import { Link } from "react-router-dom";
+
 
 function Card(props) {
 
@@ -12,11 +14,13 @@ function Card(props) {
     date,
     subtitle,
     title,
-    link
+    link,
+    size,
+    route
   } = props
 
   return (
-    <a className="Card" href={link} target="_blank">
+    <Link to={route ? route : `//${link}`} className="Card" target="_blank">
       <article
         imgsrc={imgsrc}
         imgalt={imgalt}
@@ -24,8 +28,8 @@ function Card(props) {
         label={[label]}
         date={date}
         title={title}
-        className="Card"
-        link={link}
+        className={size === 'large' ? 'Card Large' : 'Card Small'}
+        size={size}
       >
         {imgsrc && <img src={imgsrc} alt={imgalt} className="Card" />}
         {subtitle && <p className="Subtitle">{subtitle}</p>}
@@ -37,7 +41,7 @@ function Card(props) {
         </div>}
         {date && <p className="Date">{date}</p>}
       </article>
-    </a>
+    </Link>
   );
 }
 

@@ -3,8 +3,8 @@ import Recents from './Recents.js';
 import Card from '../../design-system/card/Card.js';
 import { writings } from '../../writing/writingList.js';
 
-function RecentProjects() {
-  const [list, setList] = useState(writings);
+function RecentWriting() {
+  const [list, setList] = useState([writings[writings.length - 1], writings[writings.length - 2]]);
 
   return (
     <Recents
@@ -26,4 +26,4 @@ function RecentProjects() {
   );
 }
 
-export default RecentProjects;
+export default RecentWriting;

@@ -54,6 +54,11 @@ function Projects() {
             </li>
             <li>
               <Tab
+                id="Design Systems"
+                active={filtered === 'Design Systems' ? true : false} onClick={(e) => handleClick(e)}>Design Systems</Tab>
+            </li>
+            <li>
+              <Tab
                 id="Professional Work"
                 active={filtered === 'Professional Work' ? true : false} onClick={(e) => handleClick(e)}>Professional Work</Tab>
             </li>
@@ -72,12 +77,14 @@ function Projects() {
             imgalt={item.imgalt}
             subtitle={item.subtitle}
             title={item.title}
-            link={item.link}
+            link={item.link && item.link}
+            route={item.route && item.route}
             label={item.label}
+            size="large"
           >
             {item.description}
           </Card>
-        ))}
+        )).reverse()}
       </section>
     </Page>
   );

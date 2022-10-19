@@ -20,7 +20,7 @@ function Writing() {
           >
             {item.description}
           </Card>
-        ))}
+        )).reverse()}
 
       </section>
     </Page>

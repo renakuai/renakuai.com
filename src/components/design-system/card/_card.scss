@@ -23,10 +23,30 @@ a.Card {
 
 img.Card {
   width: 100%;
-  height: 260px;
   object-fit: cover;
   border: 2px solid var(--color-border-primary);
   border-radius: var(--border-radius-medium);
+}
+
+article.Small {
+  img {
+    height: 220px;
+  }
+
+  .Content,
+  p {
+    line-height: var(--font-line-height-small);
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+}
+
+article.Large {
+  img {
+    height: 320px;
+  }
 }
 
 .Labels {
@@ -43,12 +63,4 @@ img.Card {
 
 .Subtitle {
   color: var(--color-font-secondary)
-}
-
-.Content {
-  line-height: var(--font-line-height-small);
-  display: -webkit-box;
-  -webkit-line-clamp: 3;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
 }

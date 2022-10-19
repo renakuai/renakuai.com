@@ -4,7 +4,7 @@ import Card from '../../design-system/card/Card.js';
 import { projects } from '../../projects/projectsList';
 
 function RecentProjects() {
-  const [list, setList] = useState([projects[0], projects[1], projects[2]]);
+  const [list, setList] = useState([projects[projects.length - 1], projects[projects.length - 2]]);
 
   return (
     <Recents
@@ -18,8 +18,10 @@ function RecentProjects() {
           imgalt={item.imgalt}
           subtitle={item.subtitle}
           title={item.title}
-          link={item.link}
           label={item.label}
+          size="small"
+          link={item.link && item.link}
+          route={item.route && item.route}
         >
           {item.description}
         </Card>
