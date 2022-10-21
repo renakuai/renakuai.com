@@ -6,11 +6,8 @@ export const projects = [
     imgalt: "15Five Reporting",
     subtitle: "15Five",
     label: ['Professional Work', 'Design'],
-    description: "Revamped reporting and enhanced dashboards for People teams.",
-    route: '/projects/15Five-reporting',
-    longDescription: <p><p>This was a really fulfilling project because we were able to create a product that customers loved while also maintaining our principles of not reducing people to a stack ranked list.</p>
-      <p>15Five is a talent / HR management platform that allows companies to understand the engagement of their employees. Reporting was critical for that understanding, however, the original 15Five reporting dashboard was missing a lot of important datapoints and key features. The dashboard also needed an updated design language.</p>
-      <p>Through a mix of user research, team work, and sticking to our principles, we were able to deliver a set of ethical features that customers needed. Design changes included a new navigation pattern, improved charting across the board, revamping of metric definitions, integration of metrics from across the platform, etc.</p></p>
+    description: "Enhanced reporting and dashboards for People teams.",
+    route: '/projects/15Five-reporting'
   },
   {
     id: 1,
@@ -20,10 +17,7 @@ export const projects = [
     subtitle: "Iterable",
     route: '/projects/iterable-cross',
     label: ['Professional Work', 'Design'],
-    description: "A brand new analytics feature that helps marketers compare the effectiveness of their cross-channel campaigns.",
-    longDescription: <p><p>This was a challenging project due to tight time constraints and technical limitations, however our team was able to work together to create a successful feature in a short period of time.</p>
-      <p>This was an important feature because our customers oftentimes have marketing initiatives that span across multiple mediums (email, SMS, etc.), but we did not provide them with the ability to view analytics across their channels at once. Because of this, it was hard for customers to get a holistic understanding of the performance of their initiatives.</p>
-      <p>Through a mix of quick user research, cross-functional collaboration, and user testing, we were able to completely revamp Messaging Insights to support this new paradigm. Specifically, we updated our navigation design, improved our data visualizations, updated our tables, designed for all entry points, and did some future explorations as well.</p></p>
+    description: "A new analytics feature for marketers to compare the effectiveness of their cross-channel campaigns"
   },
   {
     id: 2,
@@ -33,9 +27,7 @@ export const projects = [
     subtitle: "Iterable",
     route: '/projects/iterable-mi',
     label: ['Professional Work', 'Design', 'Design Systems'],
-    description: "Enhancing Messaging Insights through improved filtering capabilities and design system enhancements.",
-    longDescription: <p><p>This was a really fun project due to it being really focused on design systems and component creation / interaction.</p><p>The original filtering system within Messaging Insights, our reporting tool, was very basic and did not allow marketers to be able to drill down into the specific datapoints that they needed in order to accurately monitor performance. This was a huge blocker in the workflows of our customers so we knew that we needed to improve our filtering capabilities.</p>
-      <p>Through a mix of audits, quick user research, and design system enhancements we were able to add a lot more functionality while also improving the user experience of our filters. Specifically, we completely reoriented the filtering to provide more space for customers, we moved to the use of pills to allow for less clicks, and we created a more robust set of multiselect components for our design system.</p></p>
+    description: "Enhancing Messaging Insights through an improved filtering experience"
   },
   {
     id: 3,

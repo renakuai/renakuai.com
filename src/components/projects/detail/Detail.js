@@ -8,7 +8,7 @@ function Detail(props) {
 
   const {
     title,
-    description,
+    children,
     imgsrc,
     imgalt,
     subtitle,
@@ -19,9 +19,10 @@ function Detail(props) {
       <h1>{title}</h1>
       <p>{subtitle}</p>
       <section className="Cards">
-
         <img src={imgsrc} imgalt={imgalt} className="Detail" />
-        <p>{description}</p>
+        <p className="Large">
+          {children}
+        </p>
       </section>
     </Page>
   );

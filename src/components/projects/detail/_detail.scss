@@ -1,7 +1,8 @@
 img.Detail {
   width: 100%;
-  object-fit: cover;
+  object-fit: contain;
   border: 2px solid var(--color-border-primary);
   border-radius: var(--border-radius-medium);
-  height: 500px;
+  height: fit-content;
+  margin-bottom: 2rem;
 }
