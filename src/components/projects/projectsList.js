@@ -65,10 +65,19 @@ export const projects = [
     imgsrc: '/uploads/table_component.png',
     imgalt: "Table Components",
     subtitle: "Side Project: Figma",
-    title: "Customizable Table Component in Figma",
     link: "figma.com/community/file/1158568599671392782",
     label: ['Figma', 'Design', 'Side Project', "Design Systems"],
     description: 'A basic, but highly customizable table component. Includes cell variants, column header variants, full rows, etc. It is recommended to build tables using individual cells for the most customization.'
+  },
+  {
+    id: 7,
+    title: "Helios: A kickstarter to building a design system",
+    imgsrc: '/uploads/helios.png',
+    imgalt: "Helios App",
+    subtitle: "Side Project: Code",
+    link: "helios-app.netlify.app/",
+    label: ['Side Project', 'Code', 'React', "Design Systems"],
+    description: 'An app to help people pick and choose basic, foundational building blocks of their design system in a visual way. This is version 0.0.1.'
   },
 
 ]
