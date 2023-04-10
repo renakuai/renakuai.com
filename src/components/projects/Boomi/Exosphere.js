@@ -26,7 +26,7 @@ function Exosphere() {
           title="Exosphere Design System"
           caption="I currently lead the Design Technology team, responsible for our design system. I created components and documentation, created roadmaps, provided support, and established processes including communication and requests"
           timeline="Sept 2022 - Ongoing"
-          team={["2 Design Technologists", "5 UX Engineers"]}
+          team={["2 Design Technologists", "A couple of UX Engineers"]}
         />
         <Section
           title="Where we started"
