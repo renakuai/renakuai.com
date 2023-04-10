@@ -5,16 +5,16 @@
   display: flex;
   justify-content: center;
   align-items: flex-end;
-  height: 440px;
+  height: 500px;
   grid-column: 1/4;
   overflow: hidden;
 
 
   .HeroImg {
-    box-shadow: 1px 2px 50px rgba(136, 138, 157, 0.25);
+    box-shadow: 1px 2px 25px rgba(136, 138, 157, 0.25);
     border-radius: 16px 16px 0px 0px;
     max-width: 960px;
-    max-height: 400px;
+    max-height: 470px;
 
     img {
       border-radius: 16px 16px 0px 0px;

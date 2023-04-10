@@ -29,3 +29,8 @@
 .Section__content {
   max-width: 700px;
 }
+
+.Styled {
+  filter: drop-shadow(1px 1px 10px rgba(107, 107, 107, 0.25));
+  border-radius: 10px;
+}

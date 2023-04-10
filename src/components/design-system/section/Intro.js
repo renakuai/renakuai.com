@@ -31,7 +31,7 @@ function Intro(props) {
           <div className="Team">
             <p className="Data__label">Team</p>
             <p>{team.map((member) => (
-              <li>{member}</li>
+              <li key={member}>{member}</li>
             ))}</p>
           </div>
         </div>

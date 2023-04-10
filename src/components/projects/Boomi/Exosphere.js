@@ -65,8 +65,8 @@ function Exosphere() {
           </div>
 
           <div className="Section__img">
-            <img src='/boomi/tokens.png' />
-            <p className="Small Alt" alt="Design tokens for light and dark modes">Design tokens for light and dark modes</p>
+            <img src='/boomi/tokens.png' alt="Design tokens for light and dark modes" />
+            <p className="Small Alt">Design tokens for light and dark modes</p>
           </div>
 
           <div className="Section__content">
@@ -91,8 +91,8 @@ function Exosphere() {
 
 
           <div className="Section__img">
-            <img src='/boomi/zeroheight.png' />
-            <p className="Small Alt" alt="Component documentation example">Component documentation example</p>
+            <img src='/boomi/zeroheight.png' alt="Component documentation example" />
+            <p className="Small Alt" >Component documentation example</p>
           </div>
         </Section>
         <Section
@@ -115,8 +115,8 @@ function Exosphere() {
             <p>We made sure to select colors and typography that were accessible. We also mapped each selection to design tokens, a big change from the hard-coded hex values that could be found in the app prior.</p>
           </div>
           <div className="Section__img">
-            <img src='/boomi/colors.png' />
-            <p className="Small Alt" alt="Colors with contrast ratios and their respective tokens">Colors with contrast ratios and their respective tokens</p>
+            <img src='/boomi/colors.png' alt="Colors with contrast ratios and their respective tokens" />
+            <p className="Small Alt" >Colors with contrast ratios and their respective tokens</p>
           </div>
 
           <div className="Section__content">
@@ -131,12 +131,12 @@ function Exosphere() {
 
           </div>
           <div className="Section__img">
-            <img src='/boomi/table.png' />
-            <p className="Small Alt" alt="Table with Figma properties and sample code">Table with Figma properties and coded prototype</p>
+            <img src='/boomi/table.png' alt="Table with Figma properties and sample code" />
+            <p className="Small Alt" >Table with Figma properties and coded prototype</p>
           </div>
           <div className="Section__img">
-            <img src='/boomi/components.png' />
-            <p className="Small Alt" alt="Other components">Examples of other components</p>
+            <img src='/boomi/components.png' alt="Other components" />
+            <p className="Small Alt" >Examples of other components</p>
           </div>
 
           <div className="Section__content">
@@ -149,8 +149,8 @@ function Exosphere() {
             </ul>
           </div>
           <div className="Section__img">
-            <img src='/boomi/grid.png' />
-            <p className="Small Alt" alt="Page header in a grid">Page header in a grid</p>
+            <img src='/boomi/grid.png' alt="Page header in a grid" />
+            <p className="Small Alt" >Page header in a grid</p>
           </div>
 
 
@@ -159,8 +159,8 @@ function Exosphere() {
             A large effort was put in place to backfill all documentation for existing components. We also made sure to provide guidelines on common patterns, responsive behavior, and accessibility as well.</div>
 
           <div className="Section__img">
-            <img src='/boomi/doc.png' />
-            <p className="Small Alt" alt="An example pattern guideline">An example guideline</p>
+            <img src='/boomi/doc.png' alt="An example pattern guideline" />
+            <p className="Small Alt" >An example guideline</p>
           </div>
         </Section>
 

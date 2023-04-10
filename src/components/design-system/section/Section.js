@@ -5,8 +5,7 @@ function Section(props) {
 
   const {
     title,
-    children,
-    imgSrc
+    children
   } = props
 
   return (
@@ -23,8 +22,8 @@ function Section(props) {
         </p>
       </div>
     </article>
-        
+
   );
-        }
+}
 
 export default Section;

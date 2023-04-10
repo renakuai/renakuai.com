@@ -12,9 +12,8 @@ function FeaturedWork() {
       <div className="Divider" />
       <div className="List">
 
-        <Link to={{
-          pathname: 'boomi_exosphere'
-        }}><Card
+        <Link to='boomi_exosphere'
+        ><Card
           orientation="Landscape"
           company="Boomi"
           title="Exosphere Design System"
@@ -24,7 +23,7 @@ function FeaturedWork() {
           </Card>
         </Link>
 
-        <a href="https://www.salesforce.com/products/sales-cloud/tools/sales-enablement/" target="_blank">
+        <a href="https://www.salesforce.com/products/sales-cloud/tools/sales-enablement/" target="_blank" rel="noreferrer" >
           <Card
             orientation="Landscape"
             company="Salesforce"
@@ -35,23 +34,31 @@ function FeaturedWork() {
           </Card>
         </a>
 
-        <Card
-          orientation="Landscape"
-          company="Iterable"
-          title="Cross-channel Analytics"
-          description="As the sole designer on the analytics team at Iterable, I designed a brand new feature for marketers to better compare the effectiveness of their cross-channel campaigns."
-          imgSrc="/iterable/cross_channel.gif"
+        <Link to=
+          'iterable_crosschannel'
         >
-        </Card>
+          <Card
+            orientation="Landscape"
+            company="Iterable"
+            title="Cross-channel Analytics"
+            description="As the sole designer on the analytics team at Iterable, I designed a brand new feature for marketers to better compare the effectiveness of their cross-channel campaigns."
+            imgSrc="/iterable/cross_channel.gif"
+          >
+          </Card>
+        </Link>
 
-        <Card
-          orientation="Landscape"
-          company="Iterable"
-          title="Messaging Insights"
-          description="As the sole designer on the analytics team at Iterable, I improved the filtering experience in our main analytics feature to help marketers better understand the performance of their campaigns."
-          imgSrc="/iterable/mi_filters.gif"
+        <Link to=
+          'iterable_messaginginsights'
         >
-        </Card>
+          <Card
+            orientation="Landscape"
+            company="Iterable"
+            title="Improving Messaging Insights"
+            description="As the sole designer on the analytics team at Iterable, I improved the core analytics experience by revamping the filtering experience and making it easier for marketers to hone in on the data they need. "
+            imgSrc="/iterable/mi_filters.gif"
+          >
+          </Card>
+        </Link>
 
         <Card
           orientation="Landscape"
