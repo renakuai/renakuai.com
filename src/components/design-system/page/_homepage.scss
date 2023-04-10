@@ -1,0 +1,9 @@
+@import '../../../styles/_themes.scss';
+
+
+.Page {
+  max-width: 960px;
+  margin-top: 3rem;
+  margin-bottom: 6rem;
+  grid-column: 2/3;
+}

@@ -1,0 +1,39 @@
+@import '../../../styles/_themes.scss';
+
+
+.Intro {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+  .Data {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+
+    .Data__left {
+      flex-basis: 70%;
+      flex-grow: 1;
+    }
+
+    .Data__right {
+      flex-basis: 25%;
+      flex-grow: 1;
+      min-width: 200px;
+    }
+  }
+}
+
+.Data__label {
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-font-secondary);
+}
+
+@media only screen and (max-width: 810px) {
+  .Data__right {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+  }
+}

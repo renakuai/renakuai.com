@@ -1,13 +1,14 @@
 @import '../../styles/_themes.scss';
 
 nav.Top {
-  margin-top: 1.5rem;
+  margin-top: 2rem;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   color: var(--color-font-primary);
   font-weight: var(--font-weight-semibold);
+  grid-column: 2/3;
 
 
   ul {

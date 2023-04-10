@@ -11,4 +11,23 @@
 
 section.Intro {
   margin-bottom: 7rem;
+  max-width: 840px;
+}
+
+.Announcement {
+  background-color: var(--color-background-announcement);
+  padding: 0.75rem 1rem 0.75rem 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+  border-radius: 8px;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.85rem;
+
+  p {
+    margin-top: 0;
+
+    a {
+      font-family: 'IBM Plex Mono', monospace;
+    }
+  }
 }

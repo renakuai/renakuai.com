@@ -31,8 +31,10 @@ function Nav(props) {
 
       <div className="Right">
         <ul>
-          <li><Link to="/projects">Projects</Link></li>
-          <li><Link to="/writing">Writing</Link></li>
+          <li><a href="/#featured">Design</a></li>
+          <li><a href="/#coding">Code</a></li>
+
+          <li><a href="https://medium.com/@renakuai" target="_blank">Writing</a></li>
           <li>
             <div className='ThemeToggle' onClick={changeTheme}>
               {theme !== 'light' ? <img className={rotate ? 'ThemeToggle Rotate' : 'ThemeToggle'} src="/icons/moon.svg" /> : <img className={rotate ? 'ThemeToggle Rotate' : 'ThemeToggle'} src="/icons/sun.svg" />}

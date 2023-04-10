@@ -3,7 +3,7 @@
 :root .Light {
   /* background */
   --color-background-page: #{$color-white};
-
+  --color-background-card: #{$color-greyblue-10};
   --color-background-primary: #{$color-white};
   --color-background-secondary: #{$color-grey-10};
   --color-background-tertiary: #{$color-grey-30};
@@ -13,6 +13,7 @@
   --color-background-action-secondary-hover: #{$color-purple-10};
   --color-background-disabled: #{$color-grey-10};
   --color-background-label: #{$color-teal-10};
+  --color-background-announcement: #{$color-yellow-20};
 
   /* font */
   --color-font-primary: #{$color-grey-90};
@@ -45,6 +46,9 @@
 :root .Dark {
   /* background */
   --color-background-page: #{$color-grey-90};
+  --color-background-card: #{$color-greyblue-90};
+  --color-background-announcement: #{$color-teal-90};
+
 
   --color-background-primary: #{$color-grey-90};
   --color-background-secondary: #{$color-grey-80};

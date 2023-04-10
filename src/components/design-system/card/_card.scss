@@ -1,5 +1,54 @@
 @import '../../../styles/styles.scss';
 
+.Card {
+  background-color: var(--color-background-card);
+  padding: 2rem;
+  gap: 2rem;
+  border-radius: 0.5rem;
+
+  img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 0.5rem;
+    box-shadow: 1px 1px 4px rgba(115, 115, 115, 0.25);
+    transition: 0.5s all ease-in-out;
+  }
+
+  &:hover {
+    img {
+      transform: scale(1.07);
+    }
+  }
+
+  .Landscape {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    align-items: center;
+
+    .Thumbnail {
+      max-width: 50%;
+      flex-grow: 2;
+    }
+
+    .Left {
+      flex-grow: 1;
+      max-width: 50%;
+    }
+
+    img {
+      max-width: 420px;
+      height: 260px;
+    }
+  }
+}
+
+.Portrait {
+  img {
+    height: 220px;
+  }
+}
+
 a.Card {
   box-sizing: border-box;
   color: var(--color-font-primary);
@@ -21,46 +70,29 @@ a.Card {
   }
 }
 
-img.Card {
-  width: 100%;
-  object-fit: cover;
-  border: 2px solid var(--color-border-primary);
-  border-radius: var(--border-radius-medium);
-}
+@media only screen and (max-width: 769px) {
+  .Card {
 
-article.Small {
-  img {
-    height: 220px;
+    .Landscape {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+
+      .Left {
+        max-width: 100%;
+      }
+
+      .Thumbnail {
+        max-width: 100%;
+        height: 260px;
+        width: 100%;
+      }
+
+      img {
+        max-width: 100%;
+        height: 100%;
+      }
+    }
+
   }
-
-  .Content,
-  p {
-    line-height: var(--font-line-height-small);
-    display: -webkit-box;
-    -webkit-line-clamp: 3;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-  }
-}
-
-article.Large {
-  img {
-    height: 320px;
-  }
-}
-
-.Labels {
-  display: flex;
-  flex-direction: row;
-  gap: 0.25rem;
-  flex-wrap: wrap;
-}
-
-.Date {
-  color: var(--color-font-secondary);
-  font-size: var(--font-body-small-size);
-}
-
-.Subtitle {
-  color: var(--color-font-secondary)
 }

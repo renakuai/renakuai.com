@@ -25,6 +25,21 @@ $color-teal-30: #91E7F3;
 $color-teal-80: #0D6A77;
 $color-teal-90: #094953;
 
+$color-yellow-20: #FFF9B8;
+$color-yellow-60: #EBD700;
+
+$color-pink-90: #5C0048;
+
+//for gradients
+//purple uses color-purple-30
+$color-cornflower: #3DABFB;
+$color-aqua: #00D0C4;
+
+//for card background
+$color-greyblue-10: #F3F5FB;
+$color-greyblue-90: #2A2F3C;
+
+
 /* FONT SIZES */
 $font-size-5x-large: 3.5rem;
 $font-size-4x-large: 3rem;
@@ -36,9 +51,11 @@ $font-size-small: 0.875rem;
 $font-size-2x-small: 0.75rem;
 
 /* FONT WEIGHTS */
+$font-weight-black: 800;
 $font-weight-bold: 700;
 $font-weight-semibold: 600;
 $font-weight-regular: 400;
+$font-weight-light: 300;
 
 /* LINE HEIGHT */
 $font-line-height-small: 140%;

@@ -1,0 +1,70 @@
+@import '../../styles/_themes.scss';
+
+
+.Breadcrumb {
+  font-weight: var(--font-weight-regular);
+  color: var(--color-font-link);
+}
+
+.Background {
+  background-color: var(--color-background-card);
+  grid-column: 1/4;
+  display: grid;
+  grid-template-columns: minmax(32px, 1fr) minmax(280px, 960px) minmax(32px, 1fr);
+
+  nav.Top {
+    margin-top: 3rem;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+    color: var(--color-font-primary);
+    font-weight: var(--font-weight-semibold);
+    grid-column: 2/3;
+
+    ul {
+      list-style: none;
+      display: flex;
+      flex-direction: row;
+      gap: 2rem;
+    }
+  }
+
+
+}
+
+nav.Top a {
+  color: var(--color-font-primary);
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+
+  &:visited {
+    color: var(--color-font-primary);
+    text-decoration: none;
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(320deg)
+  }
+}
+
+.ThemeToggle {
+  cursor: pointer;
+}
+
+.Rotate {
+  transform-origin: center;
+  animation-name: spin;
+  animation-duration: 400ms;
+  animation-fill-mode: forwards;
+}

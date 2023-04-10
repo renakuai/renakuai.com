@@ -17,6 +17,7 @@ function LinkComp(props) {
     <Link
       type={type}
       href={link}
+      target="_blank"
     >
       {iconPosition === 'left' && <Icon
         name={iconName}

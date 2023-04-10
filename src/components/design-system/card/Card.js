@@ -1,47 +1,46 @@
 import React from 'react';
 import './_card.scss';
-import Label from '../label/Label.js';
-import { Link } from "react-router-dom";
 
 
 function Card(props) {
 
   const {
-    children,
-    imgsrc,
-    imgalt,
-    label,
-    date,
-    subtitle,
+    imgSrc,
+    company,
+    thumbAlt,
     title,
-    link,
-    size,
-    route
+    description,
+    orientation
   } = props
 
   return (
-    <Link to={route ? route : `//${link}`} className="Card" target="_blank">
-      <article
-        imgsrc={imgsrc}
-        imgalt={imgalt}
-        subtitle={subtitle}
-        label={[label]}
-        date={date}
-        title={title}
-        className={size === 'large' ? 'Card Large' : 'Card Small'}
-        size={size}
-      >
-        {imgsrc && <img src={imgsrc} alt={imgalt} className="Card" />}
-        {subtitle && <p className="Subtitle">{subtitle}</p>}
-        <h4>{title}</h4>
-        <p className="Content">{children}</p>
-        {label && <div className="Labels">
-          {label.map((item, i) =>
-            <Label key={i}>{item}</Label>)}
-        </div>}
-        {date && <p className="Date">{date}</p>}
-      </article>
-    </Link>
+    <article
+      className='Card'
+    >{
+        orientation === 'Landscape' ?
+          <div className='Landscape'>
+            <div className="Left">
+              <p className="Label">{company}</p>
+              <h4 className="Gradient">{title}</h4>
+              <p className="Description">{description}</p>
+            </div>
+            <div className="Thumbnail">
+              <img src={imgSrc} alt={thumbAlt} />
+            </div>
+          </div>
+          :
+          <div className="Portrait">
+            <div className="Left">
+              <div className="Thumbnail">
+                <img src={imgSrc} alt={thumbAlt} />
+              </div>
+              <p className="Label">{company}</p>
+              <h4 className="Gradient">{title}</h4>
+              <p className="Description">{description}</p>
+            </div>
+          </div>
+      }
+    </article>
   );
 }
 

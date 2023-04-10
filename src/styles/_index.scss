@@ -31,6 +31,16 @@ p.Large {
   line-height: var(--font-line-height-body);
 }
 
+p.Small {
+  font-size: var(--font-body-small-size);
+  line-height: var(--font-line-height-body);
+}
+
+
+p.Semibold {
+  font-weight: var(--font-weight-semibold);
+}
+
 h1,
 h2,
 h3,
@@ -45,6 +55,7 @@ h6 {
 
 h1 {
   font-size: var(--font-h1-size);
+  font-weight: var(--font-weight-black);
 }
 
 h2 {
@@ -53,16 +64,61 @@ h2 {
 
 h3 {
   font-size: var(--font-h3-size);
+  font-weight: var(--font-weight-black);
+  padding-bottom: 0.75rem;
+}
+
+h3.LargeSubtitle {
+  font-weight: var(--font-weight-regular);
+  color: var(--color-font-seconary);
 }
 
 h4 {
   font-size: var(--font-h4-size);
+  font-weight: var(--font-weight-black);
+  padding-bottom: 0.75rem;
+
 }
 
 h5 {
   font-size: var(--font-h5-size);
+  padding-bottom: 0.7rem;
+
 }
 
 h6 {
   font-size: var(--font-h6-size);
+}
+
+.Label {
+  font-size: var(--font-label-size);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--color-font-label);
+
+}
+
+.Caption {
+  font-size: var(--font-h4-size);
+  font-weight: var(--font-weight-light);
+  color: var(--color-font-secondary);
+  line-height: var(--font-line-height-header);
+
+}
+
+h1.Gradient {
+  background: linear-gradient(91.72deg, #{$color-purple-30} 0.86%, #{$color-cornflower} 22.31%, #{$color-aqua} 34.79%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+h4.Gradient,
+h3.Gradient {
+  background: linear-gradient(91.72deg, #{$color-purple-30} 0.86%, #{$color-cornflower} 42.31%, #{$color-aqua} 64.79%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
 }
