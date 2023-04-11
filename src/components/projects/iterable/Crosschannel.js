@@ -48,13 +48,66 @@ function Crosschannel() {
           title="The outcome"
         >
           <div className="Section__content">
-            We were able to quickly design and build a cross-channel analytics experience that seamlessly fit into the existing single channel experience in less than 3 months. After a few months into the release, we received a lot of positive sentiment from our customers and also achieved our goal of having customers with cross-channel campaigns using this feature on a regular basis.
+            In less than 3 months, we were able to quickly design and build a cross-channel analytics experience that seamlessly fit into the existing single channel experience.
+
+            <p>After a few months into the release, we received a lot of positive sentiment from our customers and also achieved our goal of having customers with cross-channel campaigns using this feature on a regular basis.</p>
           </div>
 
           <div className="Section__img">
             <img src='/iterable/cross_channel.gif' alt="Cross-channel analtyics" className="Styled" />
             <p className="Small Alt" >The final Cross-channel analytics feature</p>
           </div>
+        </Section>
+
+        <Section
+          title="Deep dive into the work"
+        >
+          <div className="Section__content">
+            <h5>Using a research as a starting point</h5>
+            Before diving into design, my PM and I wanted to get some insights into what customers were trying to achieve and see within their cross-channel insights.
+            <p>Due to time constraints, we conducted research in a scrappy way and were able to pull together insights from several places. We discovered the following: </p>
+            <ul>
+              <li>Customers want to compare the performance of their channels against each other</li>
+              <li>The existing workaround that customers were doing was very cumbersome</li>
+            </ul>
+          </div>
+          <div className="Section__img">
+            <img src='/iterable/survey.png' alt="Our survey" className="Styled" />
+            <p className="Small Alt" >A snippet of our survey</p>
+          </div>
+
+          <div className="Section__content">
+            <h5>Creating a new experience and merging with the old</h5>
+            Our existing feature allowed for the viewing of one channel at a time and we needed to figure out a way to add in a cross-channel view that wasn't too disruptive, but was also different enough to support the different goals of each view. We also needed to consider entry points from other parts of the application as well.
+            <p>During this process, I made sure to design the cross-channel experience side by side with the single channel experience, repurposed existing components as much as possible, and prototyped all transitions to make sure the views were cohesive.</p>
+          </div>
+          <div className="Section__img">
+            <img src='/iterable/connect.png' alt="Comparing single and cross-channel elements" className="Styled" />
+            <p className="Small Alt" >Comparing single and cross-channel cards and tables</p>
+          </div>
+          <div className="Section__img">
+            <img src='/iterable/singletocross.gif' alt="Transitioning from single to cross" className="Styled" />
+            <p className="Small Alt" >Transition from the single to cross-channel experience</p>
+          </div>
+
+          <div className="Section__content">
+            <h5>Showcasing channel performance comparisons</h5>
+            The most important part of our feature were the overview cards. From our user research, we knew that customers wanted the capability to compare metrics of channels with ease.
+            <p>I designed the overview cards to with a visual for quick understanding of performance and surfaced both aggregate and breakdowns by channel.</p>
+          </div>
+          <div className="Section__img">
+            <img src='/iterable/cards.png' alt="Card design" className="Styled" />
+            <p className="Small Alt" >Final card designs</p>
+          </div>
+
+          <div className="Section__content">
+            We made sure to carry comparisons over to each tab including the list of campaigns and audiences. We also drastically improved our charting by separating metrics so that they weren't all displayed on a single chart and allowing for time series and bar chart views.
+          </div>
+          <div className="Section__img">
+            <img src='/iterable/charts.png' alt="Improved charts" className="Styled" />
+            <p className="Small Alt" >Improved charts along with previous chart</p>
+          </div>
+
         </Section>
 
 

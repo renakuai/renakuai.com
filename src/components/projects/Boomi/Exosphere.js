@@ -24,7 +24,7 @@ function Exosphere() {
         <Intro
           company="Boomi"
           title="Exosphere Design System"
-          caption="I currently lead the Design Technology team, responsible for our design system. I created components and documentation, created roadmaps, provided support, and established processes including communication and requests"
+          caption="I currently lead the Design Technology team, responsible for our design system. I create components, documentation, and prototypes along with roadmaps, providing support, and establishing processes."
           timeline="Sept 2022 - Ongoing"
           team={["2 Design Technologists", "A couple of UX Engineers"]}
         />

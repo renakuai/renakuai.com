@@ -17,7 +17,7 @@ function FeaturedWork() {
           orientation="Landscape"
           company="Boomi"
           title="Exosphere Design System"
-          description="I currently lead the Design Technology team at Boomi, responsible for our design system, Exosphere. I designed components, created roadmaps, and established processes for communication and documentation."
+          description="I currently lead the Design Technology team, responsible for our design system. I create components, documentation, and prototypes along with roadmaps, providing support, and establishing processes."
           imgSrc="/boomi/thumb_Exosphere.png"
         >
           </Card>
