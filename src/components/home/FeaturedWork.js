@@ -60,14 +60,18 @@ function FeaturedWork() {
           </Card>
         </Link>
 
-        <Card
-          orientation="Landscape"
-          company="15Five"
-          title="Reporting for People Ops"
-          description="I was on the analytics team at 15Five where I designed a new user experience and enhanced the capabilities of our reporting feature. This allowed People leaders to better understand the engagement of their employees"
-          imgSrc="/15five/15five.png"
+        <Link to=
+          '15five_reporting'
         >
-        </Card>
+          <Card
+            orientation="Landscape"
+            company="15Five"
+            title="Reporting for People Ops"
+            description="I was on the analytics team at 15Five where I designed a new user experience and enhanced the capabilities of our reporting feature. This allowed People leaders to better understand the engagement of their employees"
+            imgSrc="/15five/15five_reporting.gif"
+          >
+          </Card>
+        </Link>
       </div>
 
 
