@@ -21,7 +21,7 @@ function Home() {
       <h1 className="Gradient">Hi, I'm Rena</h1>
       <section className="Intro">
 
-        <p className="Large">I'm a Product Designer who codes (or what they call a Design Technologist or UX Engineer), with a background in Product Management. I like to view myself as a lifelong learner, a creator at heart, and someone who embraces change. Specifically, I love creating beautiful user experiences, experimenting with front-end code, and building out design systems ✨</p>
+        <p className="Large">I'm a Product Designer who codes (or what they call a Design Technologist or UX Engineer), who's worked at a large variety of companies such as startups like Iterable and Gatsby to large companies such as Salesforce. I love creating beautiful user experiences, experimenting with front-end code, working on design systems, and just learning new things ✨</p>
 
         <p className="Large">Outside of work, I love exploring new places (and eating all the local dishes) and staying active. When I feel inspired, I also enjoy <LinkComp
           type="default"
