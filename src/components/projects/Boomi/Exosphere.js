@@ -130,13 +130,18 @@ function Exosphere() {
             </ul>
 
           </div>
+
           <div className="Section__img">
-            <img src='/boomi/table.png' alt="Table with Figma properties and sample code" />
-            <p className="Small Alt" >Table with Figma properties and coded prototype</p>
+            <img src='/boomi/components.png' alt="Examples of a few components" className="Styled" />
+            <p className="Small Alt" >Examples of a few components</p>
           </div>
           <div className="Section__img">
-            <img src='/boomi/components.png' alt="Other components" />
-            <p className="Small Alt" >Examples of other components</p>
+            <img src='/boomi/drawer_proto.gif' alt="Coded prototype of a responsive side drawer" className="Styled" />
+            <p className="Small Alt" >Coded prototype of a responsive side drawer</p>
+          </div>
+          <div className="Section__img">
+            <img src='/boomi/loader_proto.gif' alt="Loader animation exploration prototype" className="Styled" />
+            <p className="Small Alt" >Loader animation exploration prototype</p>
           </div>
 
           <div className="Section__content">
@@ -149,8 +154,8 @@ function Exosphere() {
             </ul>
           </div>
           <div className="Section__img">
-            <img src='/boomi/grid.png' alt="Page header in a grid" />
-            <p className="Small Alt" >Page header in a grid</p>
+            <img src='/boomi/grid.png' alt="Some of our responsive grids" />
+            <p className="Small Alt" >Some of our responsive grids</p>
           </div>
 
 
