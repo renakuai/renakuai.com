@@ -58,6 +58,46 @@ function Messaginginsights() {
           </div>
         </Section>
 
+        <Section
+          title="Deep dive into the work"
+        >
+          <h5>Improving the general filter pattern</h5>
+
+          <div className="Section__content">
+            We knew that we needed to support additional filters to satisfy the use cases of our customers; however, our existing filtering design wasn't scalable enough and all filters were hidden behind a single dropdown.
+            <p>In the new design, we wanted to improve both visibility and scalability. I ended up surfacing all nested filters outright and moving the filtering to the side to create more vertical space for filter selection. I also utilized a sentence logic structure that would support additional modifiers and was a pattern that was already familiar to our customers.</p>
+
+          </div>
+
+          <div className="Section__img">
+            <img src='/iterable/filterpattern.png' alt="Previous and new filters" className="Styled" />
+            <p className="Small Alt" >Previous and new filter patterns</p>
+          </div>
+
+          <h5>New components to support additional filters</h5>
+
+          <div className="Section__content">
+            The additional filters requested had a variety of requirements. Some filters were simple, such as only needing the ability to multiselect, while others were more complex, such as needing the ability to view nested items. Our existing design system didn't support these additional cases and a few other designers needed similar functionality so I decided to embark on componentizing these elements.
+            <p>I ended up doing the following:
+              <ul>
+                <li>Componentizing existing filters and adding a new Ad Lib Pill variant</li>
+                <li>Creating a menu panel component with additional variants</li>
+              </ul>
+              <p>For both, it was important to spec out the microinteractions as well as follow the mental models of our customers when organizing information.</p>
+            </p>
+
+          </div>
+
+          <div className="Section__img">
+            <img src='/iterable/filtertypes.png' alt="Different filter types" className="Styled" />
+            <p className="Small Alt" >Different filter types including Ad Lib Pills</p>
+          </div>
+          <div className="Section__img">
+            <img src='/iterable/menus.png' alt="Some menu variants" className="Styled" />
+            <p className="Small Alt" >A few menu variants</p>
+          </div>
+        </Section>
+
 
 
       </div>

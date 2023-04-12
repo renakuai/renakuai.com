@@ -92,16 +92,21 @@ function Crosschannel() {
 
           <div className="Section__content">
             <h5>Showcasing channel performance comparisons</h5>
-            The most important part of our feature were the overview cards. From our user research, we knew that customers wanted the capability to compare metrics of channels with ease.
-            <p>I designed the overview cards to with a visual for quick understanding of performance and surfaced both aggregate and breakdowns by channel.</p>
+            From our user research, we knew that customers needed to be able to compare metrics of channels with ease. We made sure to carry comparisons over to each view of data, from the overview to segmentation tables.
+            <p>For the overview cards, I designed them with a visual to allow for the quick understanding of performance. I also surfaced both aggregate metrics and breakdown metrics by channel.</p>
           </div>
           <div className="Section__img">
             <img src='/iterable/cards.png' alt="Card design" className="Styled" />
             <p className="Small Alt" >Final card designs</p>
           </div>
 
+          <div className="Section__img">
+            <img src='/iterable/audience.png' alt="Audience segment table" className="Styled" />
+            <p className="Small Alt" >Audience segment table</p>
+          </div>
+
           <div className="Section__content">
-            We made sure to carry comparisons over to each tab including the list of campaigns and audiences. We also drastically improved our charting by separating metrics so that they weren't all displayed on a single chart and allowing for time series and bar chart views.
+            We were also able to drastically improve our charting by separating metrics so that they weren't all displayed on a single chart. This allowed customers to more clearly compare channels to one another with less noise. We also added in support to switch between time series and bar chart views.
           </div>
           <div className="Section__img">
             <img src='/iterable/charts.png' alt="Improved charts" className="Styled" />
