@@ -118,6 +118,14 @@ function Exosphere() {
             <img src='/boomi/colors.png' alt="Colors with contrast ratios and their respective tokens" />
             <p className="Small Alt" >Colors with contrast ratios and their respective tokens</p>
           </div>
+          <div className="Section__content">
+            <p>To help designers be aware of all design tokens and their options, I built a Figma plugin to bring in design tokens that Figma doesn't support out of the box (such as padding, spacing, opacity, etc.) and make it easier to adjust parameters with a single click. The plugin helped streamline the workflow of designers by ensuring proper, available tokens were used.</p>
+          </div>
+
+          <div className="Section__img">
+            <img src='/boomi/tokens_plugin.gif' alt="Design token plugin gif" class="Styled" />
+            <p className="Small Alt" >Walk through of the Figma token plugin</p>
+          </div>
 
           <div className="Section__content">
             <h5>Core Components</h5>
@@ -161,11 +169,15 @@ function Exosphere() {
 
           <div className="Section__content">
             <h5>Usage Guidelines</h5>
-            A large effort was put in place to backfill all documentation for existing components. We also made sure to provide guidelines on common patterns, responsive behavior, and accessibility as well.</div>
+            A large effort was put in place to backfill all documentation for existing components. For any new components, we made sure that documentation was written before we defined a component as complete. For these usage guidelines, we noted down all variants, anatomy, interaction behavior, responsive behavior, and accessibility.</div>
 
           <div className="Section__img">
             <img src='/boomi/doc.png' alt="An example pattern guideline" />
             <p className="Small Alt" >An example guideline</p>
+          </div>
+          <div className="Section__img">
+            <img src='/boomi/table_guidelines.png' alt="An example table guideline" class="Styled" />
+            <p className="Small Alt" >Another example of a guideline</p>
           </div>
         </Section>
 
