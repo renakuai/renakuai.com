@@ -82,7 +82,7 @@ function Exosphere() {
               <br />We surpassed this goal at the end of 2022 and were even able to improve some existing components.
 
               <br /><br /><b>✔️ Establish plans for documentation and communications</b>
-              <br />I was able to get Zeroheight (documentation repo) set up and provided templates for writing documentation. Currently, we've created documentation and usage guidelines for 95% of existing components. I also was able to unify our communications by sending out release announcements to all of Boomi and presenting updates during company All-Hands.
+              <br />I was able to get Zeroheight (documentation repo) set up and provided templates for writing documentation. Currently, we've created documentation and usage guidelines for 100% of our existing components. I also was able to unify our communications by sending out release announcements to all of Boomi and presenting updates during company All-Hands.
 
               <br /><br /><b>✔️ Provide support for questions and requests</b>
               <br />We were able to set up office hours and Slack channels in order to provide support and guidance to the team. I also created a request intake process so that everyone could have a voice in requesting updates to Exosphere.
